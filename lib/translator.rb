@@ -41,3 +41,17 @@ class Translator
                     " " => " "}
   end
 end
+
+class Translate
+
+  def initialize
+    @dictionary
+  end
+
+#translate keys in dictionary hash to strings from argument at end of
+  def eng_to_morse(english)
+    @dictionary.keys
+  end
+
+
+end
